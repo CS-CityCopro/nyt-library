@@ -1,0 +1,38 @@
+### Default String Configuration
+### Add custom strings in custom/strings.yaml
+
+# base config in partials/branding, partials/head
+branding:
+  name: City Copro
+  prettyName: Team Library
+  org: Conseil Syndical
+  icon: /assets/images/icon-logo.svg
+  favicon: /assets/images/library.ico
+
+# pages/categories, pages/index, partials/search
+landing:
+  tagline: Documentation collaborative du Conseil Syndical
+  viewAll: Index
+  quickLink: <a href="/get-started">Get Started.</a>
+#  modules:
+#    - tag: team
+#      label: Find by team
+#      style: button
+#    - tag: featured
+#      label: Useful Docs
+#      style: docs
+
+
+# partials/footer
+footer:
+  helpText: Questions? Contact your organization's administrators.
+  defaultEmail: CS.103.rue.Hoche.94200@gmail.com
+  buttons:
+    edit: Éditer la page
+    move: Déplacer la page
+    create: Créer une page
+    viewFolder: Voir le dossier
+
+# pages/search, partials/search
+search:
+  placeholder: Recherche...
